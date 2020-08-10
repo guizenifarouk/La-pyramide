@@ -1,0 +1,30 @@
+#stars {
+  text-align: center;
+  margin-top: 5%;
+}
+span {
+  color: red;
+  animation-delay: 2s;
+}
+#builder {
+  background-color: white;
+  color: black;
+  border: 2px solid red; /* Green */
+}
+#builder:hover {
+  background-color: red; /* Green */
+  color: white;
+}
+
+input[type="number"] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+#reset {
+  float: right;
+  border: 2px solid green;
+}
+#reset:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
